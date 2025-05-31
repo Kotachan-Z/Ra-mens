@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ラーメンマップ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>ラーメンマップ</h1>
+    <p>現在地周辺のラーメン店を地図で表示します。</p>
+  </header>
+
+  <div id="map">読み込み中...</div>
+
+  <footer>
+    この情報はホットペッパーグルメ Web サービスから提供されています。<br>
+    © Recruit Co., Ltd.
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY&callback=initMap" async defer></script>
+</body>
+</html>
